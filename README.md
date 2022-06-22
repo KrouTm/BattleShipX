@@ -76,5 +76,5 @@ I have manually tested this project on:
 
 ## Credits
 
-[Logo](https://www.pngaaa.com/detail/318142)
-[Deployment](https://github.com/Code-Institute-Org/python-essentials-template)
+- [Logo](https://www.pngaaa.com/detail/318142)
+- [Deployment](https://github.com/Code-Institute-Org/python-essentials-template)
