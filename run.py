@@ -45,7 +45,7 @@ drawboard(V1,usercolor,username)
 def getLetter(text):#Giving the user the opportunity to write the letter again
     letter='x'
     while letter not in H:
-        letter=input(text).capitalize()
+        letter=input(text).capitalize()#Capitalize was necessary to transform the letter in which the user typed into a number. That's why it was necessary to capitalize the input letter to be able to compare the letters of "H=['A','B','C','D','E','F','G','H' ,'I','J','K','L']") and "turn into number" with for loop.
         if letter not in H:
             print("That letter is not correct, try again.")
     return letter
@@ -95,21 +95,19 @@ getcoordinatesUser()
 def getcoordinatesPC():
     k=6
     for ship in ships:#The code must run 5 times as there are five ships
-        hv=randint(0,1)
-        pcrow=randint(0,11)
-        pccolumn=randint(0,11)
+        hv=randint(0,1)#Means that it will randomly choose 0 or 1 with the intention of defining whether the boat will be drawn horizontally or vertically
+        pcrow=randint(0,11)#Is also randomly choosing a number from 0 to 11 because there are 12 rows (represented by numbers).
+        pccolumn=randint(0,11)#Is also randomly choosing a number from 0 to 11 because there are 12 columns (columns represented by the variable "H=['A ','B','C','D','E','F','G','H','I','J','K','L']").
         if hv==0:
             for c in range(k):
                 if pcrow+k>12:
-                    V2[pcrow-c][
-                        pccolumn]=pcship#In order not to go over the edge of the board, here we will invert the direction in which the boats will be drawn
+                    V2[pcrow-c][pccolumn]=pcship#Before being printed, it detect if the ship exceeds the board. If this happens, it will print it in the opposite direction.
                 else:
                     V2[pcrow+c][pccolumn]=pcship
         elif hv==1:
             for c in range(k):
                 if pccolumn+k>12:
-                    V2[pcrow][
-                        pccolumn-c]=pcship#In order not to go over the edge of the board, here we will invert the direction in which the boats will be drawn
+                    V2[pcrow][pccolumn-c]=pcship#Before being printed, it detect if the ship exceeds the board. If this happens, it will print it in the opposite direction.
                 else:
                     V2[pcrow][pccolumn+c]=pcship
         k=k-1
