@@ -22,7 +22,7 @@ for i in range(12):
 V3=[]
 for i in range(12):
     V3.append([' ?']*12)
-ships=['Carrier (6)','Battleship (5)','Destroyer (4)','Submarine (3)','Patrol Boat (2)']
+ships=['Carrier','Battleship','Destroyer','Submarine','Patrol Boat']
 usercolor='\033[0;30;44m'
 pccolor='\033[0;30;43m'
 ship='\033[0;37;44m'+' ■'
