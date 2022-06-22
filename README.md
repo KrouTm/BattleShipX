@@ -15,15 +15,31 @@
 - Patrol Boat = 2 * ■
 
 1. Enter your name.
+   
+<img src="Pictures/Enter your name.png">
+   
 2. Choose a row between A and L.
    - ⚠️ Choose where your ship will start to be written.
+   
+<img src="Pictures/row.png">
+   
 3. Choose a column between 0 and 11.
    - ⚠️ Choose where your ship will start to be written.
+   
+<img src="Pictures/column.png">
+   
 4. Choose the row and column where your ship will end up.
+
 How that must look like:
-   <img src="Pictures/example.png" width="500px" height="auto">
-5. After choosing the coordinates of your ship, choose the coordinates where you want to drop the bomb on the map.
+
+<img src="Pictures/look like.png">
+
+5. After choosing the coordinates of your ship, choose the coordinates where you want to drop the bomb on the PC map.
+
+<img src="Pictures/user drop.png">
+
 6. Soon the game will show you if what you hit was a ship or water, the same goes for the PC.
+
 7. After one of the players knocks down all of his opponent's ships, the game will show if you win ou lost the battle.
 
 ### Frameworks Libraries and Programs
@@ -61,4 +77,4 @@ I have manually tested this project on:
 ## Credits
 
 [Logo](https://www.pngaaa.com/detail/318142)
-+ I downloaded from this link.
+[Deployment](https://github.com/Code-Institute-Org/python-essentials-template)
