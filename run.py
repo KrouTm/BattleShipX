@@ -48,7 +48,7 @@ drawboard(V1, usercolor, username)
 
 
 def getLetter(text):
-    # Givinghe user the opportunity to write the letter again
+    # Giving the user the opportunity to write the letter again
     letter = 'x'
     while letter not in H:
         letter = input(text).capitalize()
