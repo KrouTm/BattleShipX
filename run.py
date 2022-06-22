@@ -22,13 +22,15 @@ for i in range(12):
 V3=[]
 for i in range(12):
     V3.append([' ?']*12)
-ships=['Carrier','Battleship','Destroyer','Submarine','Patrol Boat']
+ships=['Carrier (6)','Battleship (5)','Destroyer (4)','Submarine (3)','Patrol Boat (2)']
 usercolor='\033[0;30;44m'
 pccolor='\033[0;30;43m'
 ship='\033[0;37;44m'+' ■'
 pcship=' ■'
 shiphit='\033[0;30;41m X'
 waterhit='\033[0;37;46m ~'
+print('\nSize of each ship:\n',ships[0],'= ■ ■ ■ ■ ■ ■\n',ships[1],'= ■ ■ ■ ■ ■\n',ships[2],'= ■ ■ ■ ■\n',ships[3],'= ■ ■ ■\n',ships[4],'= ■ ■')
+time.sleep(5)
 
 def drawboard(board,color,name):#Making the style of the board
     z=0
@@ -149,9 +151,9 @@ def PCdropbomb():
 game=True
 while game:
     Userdropbomb()
-    time.sleep(3)
+    time.sleep(5)
     PCdropbomb()
-    time.sleep(3)
+    time.sleep(5)
     cont=0
     cont2=0
     for l in V2:
