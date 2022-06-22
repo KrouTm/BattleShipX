@@ -3,7 +3,7 @@
 **<p align="center">Be one of our sailors</p>**
 
 [Your battle starts here.](https://coffee---shop.herokuapp.com/)
-<p align="center"><img src="Pictures/Logo.png"></p>
+<p align="center"><img src="Pictures/Game.png"></p>
 
 ## How to play
 
