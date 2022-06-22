@@ -30,7 +30,7 @@ pcship = ' ■'
 shiphit = '\033[0;30;41m X'
 waterhit = '\033[0;37;46m ~'
 print('\nSize of each ship:\n', ships[0], '= ■ ■ ■ ■ ■ ■\n', ships[1], '= ■ ■ ■ ■ ■\n', ships[2], '= ■ ■ ■ ■\n', ships[3], '= ■ ■ ■\n', ships[4], '= ■ ■')
-time.sleep(5)
+time.sleep(3)
 
 
 def drawboard(board, color, name):
