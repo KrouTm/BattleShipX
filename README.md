@@ -68,6 +68,7 @@ How that must look like:
 - The code also doesn't detect if the user does not put the right size of the boat in the board, for example:<br> If the ship were the Carrier, it would have to occupy 6 spaces in the board:<br>■ ■ ■ ■ ■ ■ <br>or<br>■<br>■<br>■<br>■<br>■<br>■<br>and if the user entered a boat size other than 6 * ■, the code would not would detect and the entire game was compromised, without even giving the user a chance to rewrite the coordinate without resetting the game.
 - The program does not have artificial intelligence in case it hits an '■' and keeps trying in the same area until it finishes destroying the entire ship for example. It may happen that the program may reach the same place where it had already reached before. So it makes the PC a practically irrelevant opponent, being almost impossible for it to beat the user.
 
+<img src="Pictures/pc not smart.png">
 
 ## Testing
 I have manually tested this project on:
