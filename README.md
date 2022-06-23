@@ -65,6 +65,9 @@ How that must look like:
 
 ## Bugs
 - The code detects if the user puts a number in place of a letter, a letter that is not among the these options in the board or if the user wrote more than one letter, such as:<br>☻ Choose a row (A-L): 1<br>☻ Choose a row (A-L): aa<br>☻ Choose a row (A-L): s<br>☻ Choose a row (A-L): #<br>although, the code does not know if the user has entered the coordinates where there was already a ship in that exact location where the user had already chosen to place another ship.
+
+<img src="Pictures/hidden.png">
+
 - The code also doesn't detect if the user does not put the right size of the boat in the board, for example:<br> If the ship were the Carrier, it would have to occupy 6 spaces in the board:<br>■ ■ ■ ■ ■ ■ <br>or<br>■<br>■<br>■<br>■<br>■<br>■<br>and if the user entered a boat size other than 6 * ■, the code would not would detect and the entire game was compromised, without even giving the user a chance to rewrite the coordinate without resetting the game.
 
 <img src="Pictures/right size.png">
