@@ -60,7 +60,7 @@ How that must look like:
 ## Changes
 
 1. In the beginning the board was written in an extensive form, very long, as:<br>V1=[' ~',' ~',' ~',' ~',' ~',' ~',' ~',' ~' ,' ~',' ~',' ~',' ~']<br>, this was written 12 times and the code did not work as it should if I put for example: <br>V1=[' ~'* 12]* 12<br>or<br>V1=[' ~',' ~',' ~',' ~',' ~',' ~',' ~',' ~' ,' ~',' ~',' ~',' ~' ] * 12<br>, because the language interprets this as being the same element, the ' ~' should be considered as an individual element, but after some trial and error I was able to change it to: <br>V1=[] for i in range(12): <br>V1.append([' ~'] * 12)
- - And in case it wasn't very clear, the spaces at the beginning of the '~' are just to give it a better appearance and to be able to color the background of one of the ' ~' to red replacing it with 'X' when both players throw the bomb and manage to hit a part of the ship.
+ - The spaces at the beginning of the '~' are just to give it a better appearance and to be able to color the background of one of the ' ~' to red replacing it with 'X' when both players throw the bomb and manage to hit a part of the ship.
 
 
 ## Bugs
