@@ -36,7 +36,7 @@ How that must look like:
 
 5. After choosing the coordinates of your ship, choose the coordinates where you want to drop the bomb on the PC map.
 
-<img src="Pictures/user drop.png">
+<img src="Pictures/trying.png">
 
 6. Soon the game will show you if what you hit was a ship or water, the same goes for the PC.
 
