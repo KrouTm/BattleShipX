@@ -34,7 +34,7 @@ How that must look like:
 
 <img src="Pictures/look like.png">
 
-5. After choosing the coordinates of your ship, choose the coordinates where you want to drop the bomb on the PC map.
+5. After choosing the coordinates of your ship, choose the coordinates where you want to drop the bomb on the PC board.
 
 <img src="Pictures/trying.png">
 
