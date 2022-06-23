@@ -41,6 +41,29 @@ pcship = ' ■'
 shiphit = '\033[0;30;41m X'
 waterhit = '\033[0;37;46m ~'
 
+print('\033[0;49;95m\nGAME OBJECTIVE\033[m' + "\nThe object of Battleship " +
+      "is to try and sink all of the other player's before " +
+      "they sink all of your ships." +
+      "\nAll of the other player's ships are somewhere on his/her board." +
+      "\nYou try and hit them by calling out the coordinates of " +
+      "one of the squares on the board." +
+      "\nThe other player also tries to hit your " +
+      "ships by calling out coordinates." +
+      "\nNeither you nor the other player can see the other's " +
+      "board so you must try to guess where they are.")
+
+time.sleep(5)
+
+print('\033[0;49;95m\nGAME RULES\033[m' + '\n- Each player places the ' +
+      '5 ships somewhere on their board.' +
+      '\n- The ships can only be placed vertically or horizontally. ' +
+      'Diagonal placement is not allowed.' +
+      '\n- No part of a ship may hang off the edge of the board.' +
+      '\n- Ships may not overlap each other. ' +
+      'No ships may be placed on another ship.')
+
+time.sleep(5)
+
 print('\033[0;49;95m\nSize of each ship:\033[m')
 nship = 6
 xx = 0
@@ -49,6 +72,7 @@ for each in range(5):
     xx = xx + 1
     nship = nship - 1
 time.sleep(5)
+
 
 def drawboard(board, color, name):
     # Making the style of the board

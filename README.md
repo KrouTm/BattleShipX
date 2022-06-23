@@ -78,3 +78,4 @@ I have manually tested this project on:
 
 - [Logo](https://www.pngaaa.com/detail/318142)
 - [Deployment](https://github.com/Code-Institute-Org/python-essentials-template)
+- [Game Rules](https://www.cs.nmsu.edu/~bdu/TA/487/brules.htm)
