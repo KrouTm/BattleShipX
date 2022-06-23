@@ -66,10 +66,9 @@ time.sleep(5)
 
 print('\033[0;49;95m\nSize of each ship:\033[m')
 nship = 6
-xx = 0
-for each in range(5):
-    print(ships[xx], '=', nship * pcship)
-    xx = xx + 1
+for xx in range(5):
+    spaces = (16 - len(ships[xx])) * ' '
+    print(ships[xx], spaces + '=', nship * pcship)
     nship = nship - 1
 time.sleep(5)
 
