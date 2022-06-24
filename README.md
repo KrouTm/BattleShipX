@@ -80,7 +80,7 @@ How that must look like:
 
 <img src="Pictures/pc not smart.png">
 
-- The PC knows not to start printing the boat in the same place where there is an '■' in place, but the PC can start printing where there is no '■' but continue printing even when it encounters an '■' on the way , making the ships overlap each other.
+- The PC knows not to start printing the ship in the same place where there is an '■' in place, but the PC can start printing where there is no '■' but continue printing even when it encounters an '■' on the way , making the ships overlap each other.
 
 <img src="Pictures/overlap.png">
 
