@@ -2,7 +2,7 @@
 
 **<p align="center">Be one of our sailors</p>**
 
-[Your battle starts here.](https://coffee---shop.herokuapp.com/)
+[Your battle starts here.](https://battleship-x.herokuapp.com/)
 <p align="center"><img src="Pictures/Screenshot Game.png"></p>
 
 ## How to play
@@ -76,7 +76,7 @@ How that must look like:
 
 <img src="Pictures/right size.png">
 
-- The program does not have artificial intelligence in case it hits an '■' and keeps trying in the same area until it finishes destroying the entire ship for example. It may happen that the program may reach the same place where it had already reached before. So it makes the PC a practically irrelevant opponent, being almost impossible for it to beat the user.
+- The program does not have artificial intelligence in case it hits an '■' and keeps trying in the same area until it finishes destroying the entire ship for example. It may happen that the program may hit the same place where it had already hit before. So it makes the PC a practically irrelevant opponent, being almost impossible for it to beat the user.
 
 <img src="Pictures/pc not smart.png">
 <img src="Pictures/pc not smart0.png">
