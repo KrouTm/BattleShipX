@@ -70,7 +70,7 @@ How that must look like:
 
 - The user can put the same coordinates, being able to place the boats and drop the bomb in the same place several times. This damages the game.
 
-<img src="Pictures/tha same.png">
+<img src="Pictures/the same.png">
 
 - The code also doesn't detect if the user does not put the right size of the boat in the board, for example:<br> If the ship were the Carrier, it would have to occupy 6 spaces in the board:<br>■ ■ ■ ■ ■ ■ <br>or<br>■<br>■<br>■<br>■<br>■<br>■<br>and if the user entered a boat size other than 6 * ■, the code would not would detect and the entire game was compromised, without even giving the user a chance to rewrite the coordinate without resetting the game.
 
