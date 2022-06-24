@@ -62,13 +62,12 @@ How that must look like:
 1. In the beginning the board was written in an extensive form, very long, as:<br>V1=[' ~',' ~',' ~',' ~',' ~',' ~',' ~',' ~' ,' ~',' ~',' ~',' ~']<br>, this was written 12 times and the code did not work as it should if I put for example: <br>V1=[' ~'* 12]* 12<br>or<br>V1=[' ~',' ~',' ~',' ~',' ~',' ~',' ~',' ~' ,' ~',' ~',' ~',' ~' ] * 12<br>, because the language interprets this as being the same element, the ' ~' should be considered as an individual element, but after some trial and error I was able to change it to: <br>V1=[] for i in range(12): <br>V1.append([' ~'] * 12)
  - The spaces at the beginning of the '~' are just to give it a better appearance and to be able to color the background of one of the ' ~' to red replacing it with 'X' when both players throw the bomb and manage to hit a part of the ship.
 
-
 ## Bugs
-- The code detects if the user puts a number in place of a letter, a letter that is not among the these options in the board or if the user wrote more than one letter, such as:<br>☻ Choose a row (A-L): 1<br>☻ Choose a row (A-L): aa<br>☻ Choose a row (A-L): s<br>☻ Choose a row (A-L): #<br>although, the code does not know if the user has entered the coordinates where there was already a ship in that exact location where the user had already chosen to place another ship.
+- The code detects if the user puts a number in place of a letter, a letter that is not among the these options in the board or if the user wrote more than one letter, such as:<br>☻ Choose a row (A-L): 1<br>☻ Choose a row (A-L): aa<br>☻ Choose a row (A-L): s<br>☻ Choose a row (A-L): #<br>but, the code does not know if the user has entered the coordinates where there was already a ship in that exact location where the user had already chosen to place another ship.
 
 <img src="Pictures/hidden.png">
 
-- The user can put the same coordinates, being able to place the boats and drop the bomb in the same place several times. This damages the game.
+- The user can put the same coordinates, being able to place the boats and drop the bomb in the same place several times. This spoils the game.
 
 <img src="Pictures/the same.png">
 <img src="Pictures/the same0.png">
