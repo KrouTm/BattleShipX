@@ -68,6 +68,10 @@ How that must look like:
 
 <img src="Pictures/hidden.png">
 
+- The user can put the same coordinates, being able to place the boats and drop the bomb in the same place several times. This damages the game.
+
+<img src="Pictures/tha same.png">
+
 - The code also doesn't detect if the user does not put the right size of the boat in the board, for example:<br> If the ship were the Carrier, it would have to occupy 6 spaces in the board:<br>■ ■ ■ ■ ■ ■ <br>or<br>■<br>■<br>■<br>■<br>■<br>■<br>and if the user entered a boat size other than 6 * ■, the code would not would detect and the entire game was compromised, without even giving the user a chance to rewrite the coordinate without resetting the game.
 
 <img src="Pictures/right size.png">
@@ -75,6 +79,10 @@ How that must look like:
 - The program does not have artificial intelligence in case it hits an '■' and keeps trying in the same area until it finishes destroying the entire ship for example. It may happen that the program may reach the same place where it had already reached before. So it makes the PC a practically irrelevant opponent, being almost impossible for it to beat the user.
 
 <img src="Pictures/pc not smart.png">
+
+- The PC knows not to start printing the boat in the same place where there is an '■' in place, but the PC can start printing where there is no '■' but continue printing even when it encounters an '■' on the way , making the ships overlap each other.
+
+<img src="Pictures/overlap.png">
 
 ## Testing
 I have manually tested this project on:
