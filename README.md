@@ -79,6 +79,7 @@ How that must look like:
 - The program does not have artificial intelligence in case it hits an '■' and keeps trying in the same area until it finishes destroying the entire ship for example. It may happen that the program may reach the same place where it had already reached before. So it makes the PC a practically irrelevant opponent, being almost impossible for it to beat the user.
 
 <img src="Pictures/pc not smart.png">
+<img src="Pictures/pc not smart0.png">
 
 - The PC knows not to start printing the ship in the same place where there is an '■' in place, but the PC can start printing where there is no '■' but continue printing even when it encounters an '■' on the way , making the ships overlap each other.
 
